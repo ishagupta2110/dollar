@@ -1,0 +1,47 @@
+/* *{
+    border: 2px solid green;
+} */
+/* fonts */
+.font1{
+    font-family: 'Dancing Script', cursive;
+}
+.font2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Colors */
+:root {
+    --mainpink:rgb(255, 158, 181);
+    --transparent:rgba(0, 0, 0, 0.3); 
+    --white:white;
+  }
+/* text-color */
+.text-mainpink{
+    color: var(--mainpink);
+}
+/* bg color */
+.bg-mainpink{
+    background-color: var(--mainpink) !important;
+}
+/* Home */
+/* Nabvbar */
+.navbar{
+    -webkit-backdrop-filter: blur(4px);
+    background-color: var(--transparent) !important;
+    backdrop-filter: blur(4px);
+  }
+  .color:hover{
+      color: var(--mainpink) !important;
+  }
+
+  .active-page,.color-hover:focus{
+    /* border-bottom: 0.2rem solid var(--heaven); */
+    color: var(--mainpink) !important;
+  }
+  /* Section1 */
+  .carouselimg{
+      height: 98vh;
+  }
+  /* footer */
+  .footercolor:hover {
+    color: var(--white) !important;
+}
